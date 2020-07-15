@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback"
+
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    >
+
+    <EditText
+        android:id="@+id/nameid"
+        android:layout_width="375dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="566dp"
+        android:inputType="text"
+
+        android:completionHint="Enter your Name."
+        android:hint="Enter_your_name"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/actv"
+        android:layout_width="373dp"
+        android:layout_height="263dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="274dp"
+
+        android:completionHint="Add Reviews or Feedback Here."
+        android:hint="Add_reviews_or_feedback_here"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="How_was_your_experience_with_our_app"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:textColor="#2B2B2B"/>
+
+    <Button
+        android:id="@+id/feedbackbutton"
+        android:layout_width="377dp"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="192dp"
+        android:text="Send_feedback"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

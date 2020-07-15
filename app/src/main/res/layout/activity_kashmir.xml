@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kashmir"
+    tools:context=".Gilgit"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/parent1"
+        >
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scrollbarSize="4dp"
+            android:text="Kashmir"
+            android:textColor="@android:color/black"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:fontFamily="cursive"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:id="@+id/htl"
+                android:layout_width="170dp"
+                android:layout_height="65dp"
+                android:text="View Accomodation"
+                android:background="#090909"
+                android:textColor="#ffffff"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/dst"
+                android:layout_width="170dp"
+                android:layout_height="65dp"
+                android:text="View Destinations"
+                android:background="#090909"
+                android:textColor="#ffffff"
+                android:layout_marginTop="30dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <Button
+                android:id="@+id/maps"
+                android:layout_width="170dp"
+                android:layout_height="65dp"
+                android:text="View Navigation"
+                android:background="#090909"
+                android:textColor="#ffffff"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="15dp" />
+
+            <Button
+                android:id="@+id/rstn"
+                android:layout_width="170dp"
+                android:layout_height="65dp"
+                android:text="View Restaurants"
+                android:background="#090909"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/FFB"
+            android:text="Your Feedback"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:background="#090909"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="220dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

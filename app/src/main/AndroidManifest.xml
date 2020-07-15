@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vacay_pk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Registeration"></activity>
+        <activity android:name=".Loginn" />
+        <activity android:name=".murreebundles" />
+        <activity android:name=".swatbundles" />
+        <activity android:name=".naranbundles" />
+        <activity android:name=".kashmirbundles" />
+        <activity android:name=".islamabadbundles" />
+        <activity android:name=".hunzabundles" />
+        <activity android:name=".gilgitbundles" />
+        <activity android:name=".swathotel" />
+        <activity android:name=".naranhotel" />
+        <activity android:name=".murreehotel" />
+        <activity android:name=".kashmirhotel" />
+        <activity android:name=".islamabadhotel" />
+        <activity android:name=".hunzahotel" />
+        <activity android:name=".gilgithotel" />
+        <activity android:name=".swatrestaurant" />
+        <activity android:name=".naranrestaurant" />
+        <activity android:name=".murreerestaurant" />
+        <activity android:name=".kashmirrestaurant" />
+        <activity android:name=".islamabadrestaurant" />
+        <activity android:name=".hunzarestaurant" />
+        <activity android:name=".gilgitrestaurant" />
+        <activity android:name=".swatdestination" />
+        <activity android:name=".narandestination" />
+        <activity android:name=".kashmirdestination" />
+        <activity android:name=".islamabaddestination" />
+        <activity android:name=".hunzadestination" />
+        <activity android:name=".murreedestination" />
+        <activity android:name=".gilgitdestination" />
+        <activity android:name=".Kashmir" />
+        <activity android:name=".Hunza" />
+        <activity android:name=".Islamabad" />
+        <activity android:name=".Murree" />
+        <activity android:name=".Swat" />
+        <activity android:name=".Naran" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Gilgit" />
+        <activity android:name=".screen4" />
+        <activity android:name=".screen3" />
+        <activity android:name=".screen2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swatbundles"
+    android:background="@drawable/swath1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scrollbarSize="4dp"
+            android:text="Swat Bundles"
+            android:textColor="@android:color/white"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            app:fontFamily="cursive"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:text="Select the plan you wish to proceed"/>
+
+        <TextView
+            android:id="@+id/bundle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:scrollbarSize="4dp"
+            android:textStyle="bold"
+            android:text="Bundle_1_4_days_3_nights_package_a_homely_environment_with_warm_inculcation_of_muree_food_complementary_horse_riding"
+
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+        <Button
+            android:id="@+id/sprice1"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="Rs 12,500"
+
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:background="#AEA5A5"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:scrollbarSize="500dp"
+            android:textStyle="bold"
+            android:text="Bundle_2 Nature_calling_for_8_days_and_7_nights_a_double_bedroom_with_fireplace_food_horse_riding_bonfire_night"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/sprice2"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="Rs_35_500"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:background="#AEA5A5"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scrollbarSize="500dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:text="bundle_3_equisite_beauty_for_18_days_and_17_nights_luxurious_suites_spectacular_food_available_for_a_ravendous_horse_riding_bonfire_night_swimming_pool"/>
+
+        <Button
+            android:id="@+id/sprice3"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="Rs 70,000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#AEA5A5"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sback"
+                android:text="Back"
+                android:layout_marginEnd="10dp"
+                android:background="#2B2B2B"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/shome"
+                android:text="Home"
+                android:background="#2B2B2B"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
